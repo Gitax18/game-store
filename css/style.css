@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700;900&display=swap');
+
+:root{
+    --blk: #000000;
+    --pur: #52057B;
+    --light-pur: #892CDC;
+    --vio: #BC6FF1;
+}
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    overflow-x: hidden;
+}
+
+/* page1 css */
+.page1{
+    background-color: var(--blk);
+    height: 100%;
+}
+
+img{
+    height: 90vh;
+}
+
+.logo{
+    height: 9vh;
+    width: 8vh;
+}
+
+/* page2 css */
+.page2{
+    background-color: var(--blk);
+    height: 100vh;
+}
+
+.heading{
+    color: var(--light-pur);
+    text-align: center;
+    padding-top: 8vh;
+    font-weight: 900;
+}
+
+.divcards{
+    margin: 4vh 0 0  3vw;
+}
+
+.cdimg{
+    width: 23vw;
+    height: 60vh;
+}
+
+.card{
+    background-color: var(--blk);
+    color: var(--vio);
+}
+
+/* page3 css*/
+.page3{
+    height: 100%;
+    background-color: var(--light-pur);
+}
+
+.spe-ed-img{
+    height: auto;
+    margin: 2.5vh 0 2.5vh 8vw;
+    width: 35vw;
+}
+
+.se-t{
+    font-size: larger;
+    font-weight: 700;
+    color: var(--blk);
+}
+
+/*  page 4 css */
+.page4{
+    height: 100%;
+    background-color: var(--blk);
+}
+
+.cg2{
+    margin: 0 0 0 10%; 
+}
+
+.cdimg2{
+    height: 20vw;
+    width: 40vh;
+}
+
+/*  footer  */
+footer{
+    height: 10vh;
+    background-color: var(--vio);
+    color: var(--pur);
+    font-size: large;
+    font-weight: 700;
+}
+
+/*  css for contact.html */
+.headingc{
+    color: var(--light-pur);
+    text-align: center;
+    padding-top: 3.5vh;
+    font-weight: 900;
+}
+
+.con-form{
+    height: 100vh;
+    background-color: var(--blk);
+    color: var(--vio);
+}
+
+.infopara{
+    color: var(--light-pur);
+}
